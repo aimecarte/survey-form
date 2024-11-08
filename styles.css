@@ -21,7 +21,7 @@ body {
     position: relative;
     z-index: 999;
     background-color: white;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
   }
   header {
@@ -36,13 +36,10 @@ body {
     text-align: center;
   }
 
-  main {
-    
-  }
-
   form {
     width: 50%;
     overflow: auto;
+    padding-top: 10px;
   }
 
   .form-group {
@@ -86,6 +83,7 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 5px;
   }
 
   .bg-img {
@@ -120,5 +118,8 @@ body {
     }
     .form-img {
       display: none;
+    }
+    body {
+      font-size: 0.75rem;
     }
   }
